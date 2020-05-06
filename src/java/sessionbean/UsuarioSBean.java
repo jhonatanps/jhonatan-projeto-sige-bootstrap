@@ -19,7 +19,7 @@ import entidades.Usuario;
 @Stateless
 public class UsuarioSBean {
 
-    @PersistenceContext(unitName = "Sige-bootstrapPU")
+    @PersistenceContext(unitName = "SigePU")
     EntityManager em;
     
     public void salvar(Usuario usuario){

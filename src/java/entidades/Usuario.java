@@ -13,7 +13,7 @@ import javax.persistence.NamedQuery;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "usuario", schema = "sigebootstrap")
+@Table(name = "usuario", schema = "sige")
 @NamedQueries({
     @NamedQuery(
           name = "Usuario.findByNome",

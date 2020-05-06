@@ -20,7 +20,7 @@ import entidades.Produto;
 @Stateless
 public class ProdutoSBean {
 
-    @PersistenceContext(unitName = "Sige-bootstrapPU")
+    @PersistenceContext(unitName = "SigePU")
     EntityManager em;
     
     public void salvar(Produto produto){
